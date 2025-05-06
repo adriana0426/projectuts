@@ -1,0 +1,114 @@
+#navbar{
+    width: 800px;
+    color: rgb(8, 6, 8);   
+    margin: 0 ;
+    
+}
+#navbar a{
+color: rgb(14, 14, 14);
+}
+#nama{ 
+    font-size: 30px;
+    float:none;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+#kampus{
+    font-size: 20px;
+    float: none;
+    font-family:'Times New Roman', Times, serif;
+}
+body{
+    background-color: rgba(207, 144, 149, 0.836);
+    background-size: cover;
+    color: rgb(13, 13, 13);
+    
+}
+#ts{
+    font-size: 20px;
+    float: none;
+    font-family:'Times New Roman', Times, serif;
+}
+#nl{
+    font-size: 15px;
+    float: none;
+    font-family:'Times New Roman', Times, serif;
+}
+#tabel{
+    background: rgb(238, 172, 172);
+}
+#kontak{
+    text-align: center;
+    font-size: 30px;
+    float:none;
+    font-family:'Times New Roman', Times, serif;
+}
+#email{
+    background:rgb(238, 172, 172) ;
+    border-width: 0.5px;
+    padding: 10px;
+    margin: 20px;
+}
+#te{
+    margin: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    margin-right: 15px;
+}
+#text{
+    background: rgb(238, 172, 172);
+    border-width: 0.5px;
+    padding: 10px;
+    margin: 20px;
+}
+#tt{
+    margin: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    margin-right: 15px;
+}
+#kirim{
+    background:rgb(237, 138, 138);
+    border-width: 0.5px;
+    padding: 5px;
+    margin: 20px;
+}
+#about{
+    text-align: center;
+    font-size: 30px;
+    float:none;
+    font-family:'Times New Roman', Times, serif;
+}
+#p1{
+    text-align: justify;
+}
+#p2{
+    text-align: justify;
+}
+
+
+#cv{
+    text-align: center;
+}
+#cvf{
+    display: flex;
+  justify-content: center; 
+  align-items: flex-start; 
+  height: 100vh;
+  padding-top: 30px; 
+
+
+}
+#foto{
+    display: flex;
+    justify-content: center; 
+    gap: 20px;             
+    padding: 20px;
+}
+#foto img{
+    width: 400px;  
+  height: auto;
+  border-radius: 10px; 
+}

@@ -5,35 +5,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-    <nav>
+    
+    <nav id="navbar">
         <a href="index.html">Home</a> |
-        <a href="cv-dian.pdf">Download CV</a> |
+        <a href="about.html">About me</a> |
         <a href="contact.html">Contact</a> |
-        <a href="about.html">About me</a>
+        <a href="cv.html"> CV</a> 
     </nav>
 
     <hr />
 
     <div>
-        <h1>Contact Me</h1>
-        <form>
-            <label for="email">Email</label><br />
-            <input type="email" name="email" placeholder="alamat email"/>
+        <h1 id="kontak">Contact Me</h1>
+        <form >
+            <label for="email" id="te">Email</label><br />
+            <input type="email" name="email" placeholder="alamat email" id="email"/>
             <br />
-            <label for="message">Pesan</label><br />
-            <textarea name="message" placeholder="Tulis pesan anda..." rows="4" cols="80"></textarea>
+            <label for="message" id="tt">Pesan</label><br />
+            <textarea  name="message" placeholder="Tulis pesan anda..." rows="4" cols="80" id="text"></textarea>
             <br />
             <br />
-            <input type="submit" value="Kirim" />
+            <input type="submit" value="Kirim" id="kirim"/>
         </form>
     </div>
 
     <hr>
-    <footer style="text-align: center;">
-        <p>Copyright &copy; 2025 Sela Akong.</p>
+    <footer style="text-align: center;" >
+        <p id="cr">Copyright &copy; 2025 Sela Akong.</p>
     </footer>
 </body>
 </html>
