@@ -19,7 +19,7 @@ color: rgb(14, 14, 14);
     font-family:'Times New Roman', Times, serif;
 }
 body{
-    background-color: rgba(207, 144, 149, 0.836);
+    background-image: url(images/sel.jpeg);
     background-size: cover;
     color: rgb(13, 13, 13);
     
@@ -35,7 +35,7 @@ body{
     font-family:'Times New Roman', Times, serif;
 }
 #tabel{
-    background: rgb(238, 172, 172);
+    background: transparent;
 }
 #kontak{
     text-align: center;
@@ -44,7 +44,7 @@ body{
     font-family:'Times New Roman', Times, serif;
 }
 #email{
-    background:rgb(238, 172, 172) ;
+    background:transparent ;
     border-width: 0.5px;
     padding: 10px;
     margin: 20px;
@@ -57,7 +57,7 @@ body{
     margin-right: 15px;
 }
 #text{
-    background: rgb(238, 172, 172);
+    background:transparent;
     border-width: 0.5px;
     padding: 10px;
     margin: 20px;
@@ -70,7 +70,7 @@ body{
     margin-right: 15px;
 }
 #kirim{
-    background:rgb(237, 138, 138);
+    background:transparent;
     border-width: 0.5px;
     padding: 5px;
     margin: 20px;
